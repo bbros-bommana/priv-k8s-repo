@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: flask-app-container
-          image: 356791834110.dkr.ecr.us-east-2.amazonaws.com/gitops-skm-demo:54388b84f06b84b7434e1f010eb8941ed4bd4313
+          image: 356791834110.dkr.ecr.us-east-2.amazonaws.com/gitops-skm-demo:913dcae0fd73b48133aad0a1af9d6770c3d2b8b2
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
